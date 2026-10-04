@@ -1,0 +1,40 @@
+"""PeopleDesk Lite: 基于 SQLite 的请假核算库。"""
+from .service import PeopleDesk
+from .types import (
+    ANNUAL_QUOTAS,
+    Decision,
+    LeaveType,
+    PeopleDeskError,
+    QuotaExceededError,
+    DateConflictError,
+    StaleBaseVersionError,
+    PendingExistsError,
+    NotFoundError,
+    DecisionConflictError,
+    PeopleDeskStateError,
+    VersionStatus,
+    VersionInfo,
+    RequestInfo,
+    TypeBalance,
+    YearBalance,
+)
+
+__all__ = [
+    "PeopleDesk",
+    "ANNUAL_QUOTAS",
+    "Decision",
+    "LeaveType",
+    "PeopleDeskError",
+    "QuotaExceededError",
+    "DateConflictError",
+    "StaleBaseVersionError",
+    "PendingExistsError",
+    "NotFoundError",
+    "DecisionConflictError",
+    "PeopleDeskStateError",
+    "VersionStatus",
+    "VersionInfo",
+    "RequestInfo",
+    "TypeBalance",
+    "YearBalance",
+]
